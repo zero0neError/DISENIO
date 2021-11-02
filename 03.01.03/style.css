@@ -1,0 +1,47 @@
+h1{
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+h2{
+    background-color: #4099BF;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h3{
+
+    font-weight: bold;
+    color: white;
+    background-color: #79B8D2;
+    font-size: 1.5em;
+}
+p{
+    text-align: justify;
+    display: block;
+}
+
+blockquote{
+
+    font-style: oblique;
+}
+body{
+
+    background-color: #C6E0EC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+pre{
+
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+address{
+
+    text-align: right;
+    font-family: serif;
+}
