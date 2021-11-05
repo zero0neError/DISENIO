@@ -1,6 +1,53 @@
+<<<<<<< HEAD
 h1{
 
     text-align: center;
     font-weight: bold;
     font-size: 50px;
 }
+=======
+body {
+    background-color: #c6d9ee;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: right;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 3rem;
+    font-variant: small-caps;
+}
+
+p {
+    line-height: 200%;
+    text-indent: 3em;
+}
+
+strong {
+    color: chocolate;
+}
+
+em {
+    background-color: white;
+    color: green;
+}
+
+span {
+    color: red;
+    font-family: "Comic Sans", cursive;
+}
+
+time {
+    color: darkorange;
+}
+
+address {
+    font-size: 0.8rem;
+    text-align: center;
+}
+>>>>>>> 94ab7a7814e7cb2744e22c112a26cc6a617f495e
