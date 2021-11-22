@@ -1,0 +1,19 @@
+$textColor:#eee;
+$textColorHover:#fff;
+$backColor:#666;
+$backColorElementListHover:#888;
+
+@mixin changeColor($textColor,$backColor) {
+    
+    color: $textColor;
+    background-color: $backColor;
+}
+
+@mixin colorHover($color,$back){
+
+    &:hover{
+
+        color:$color;
+        background-color: $back;
+    }
+}
