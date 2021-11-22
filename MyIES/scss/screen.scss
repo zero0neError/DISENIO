@@ -17,3 +17,15 @@ $backColorElementListHover:#888;
         background-color: $back;
     }
 }
+
+@mixin changeBoxSizing($size) {
+    
+    -webkit-box-sizing: $size;
+    box-sizing: $size;
+}
+
+@mixin animationM($property,$duration,$timing){
+
+    $timing: linear !default;
+    transition: $property $duration $timing;
+}
