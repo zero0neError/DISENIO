@@ -58,11 +58,11 @@ header{
 body {
     padding: 0px;
     margin: 0px;
-    @include changeBoxSizing(border-box);
 }
 
 footer {
     @include colors;
+    @include changeBoxSizing(border-box);
     position: absolute;
     width: 100%;
     bottom: 0px;

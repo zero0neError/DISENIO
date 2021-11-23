@@ -48,6 +48,10 @@ li.categoria {
     &:hover{
         padding: 10px 20px;
 
+        >a{
+            padding: 10px 20px;
+        }
+
         ul.submenu {
             height: 100px;
         }

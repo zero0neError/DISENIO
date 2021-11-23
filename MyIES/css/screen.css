@@ -65,6 +65,9 @@ li.categoria > a {
 li.categoria:hover {
   padding: 10px 20px;
 }
+li.categoria:hover > a {
+  padding: 10px 20px;
+}
 li.categoria:hover ul.submenu {
   height: 100px;
 }
@@ -92,15 +95,15 @@ header {
 body {
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -moz-box-sizing: border-box;
 }
 
 footer {
   color: #eee;
   background-color: #666;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   position: absolute;
   width: 100%;
   bottom: 0px;
