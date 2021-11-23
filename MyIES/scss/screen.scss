@@ -3,7 +3,7 @@ $textColorHover:#fff;
 $backColor:#666;
 $backColorElementListHover:#888;
 
-@mixin changeColor($textColor,$backColor) {
+@mixin colors {
     
     color: $textColor;
     background-color: $backColor;
@@ -21,11 +21,20 @@ $backColorElementListHover:#888;
 @mixin changeBoxSizing($size) {
     
     -webkit-box-sizing: $size;
+    -moz-box-sizing: $size;
+    -moz-box-sizing: $size;
     box-sizing: $size;
 }
 
-@mixin animationM($property,$duration,$timing){
+@mixin transition($property,$duration,$timing:linear){
 
-    $timing: linear !default;
     transition: $property $duration $timing;
 }
+
+@mixin animation($name,$duration,$timing:linear){
+
+    transition: $property $duration $timing;
+}
+
+
+@import "_menu";

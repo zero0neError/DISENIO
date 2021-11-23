@@ -1,4 +1,7 @@
-nav ul{
+header{
 
-    @include changeColor(red,blue);
+    height: 100px;
+    @include colors;
+    padding: 12px 30px;
+    font-size: 1.8em;
 }
