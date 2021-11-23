@@ -9,12 +9,12 @@ $backColorElementListHover:#888;
     background-color: $backColor;
 }
 
-@mixin colorHover($color,$back){
+@mixin colorHover{
 
     &:hover{
 
-        color:$color;
-        background-color: $back;
+        color:$textColorHover;
+        background-color: $backColorElementListHover;
     }
 }
 
@@ -28,13 +28,16 @@ $backColorElementListHover:#888;
 
 @mixin transition($property,$duration,$timing:linear){
 
-    transition: $property $duration $timing;
+    -moz-transition: $property $duration $timing;
+    -webkit-transition: $property $duration $timing;
+    -o-transition: $property $duration $timing;
 }
 
 @mixin animation($name,$duration,$timing:linear){
 
-    transition: $property $duration $timing;
+    -moz-animation: $name $duration $timing;
+    -webkit-animation: $name $duration $timing;
+    -o-animation: $name $duration $timing;
 }
-
 
 @import "_menu";
