@@ -43,10 +43,6 @@ nav>ul {
     background-color: #666;
 }
 
-li.categoria {
-    float: left;
-}
-
 nav a {
     color: #eee;
     background-color: #666;
@@ -66,13 +62,8 @@ nav a:hover {
     animation: iluminar 0.4s linear;
 }
 
-ul.submenu {
-    -moz-transition: height 0.5s ease-out;
-    -webkit-transition: height 0.5s ease-out;
-    transition: height 0.5s ease-out;
-    position: absolute;
-    height: 0px;
-    overflow: hidden;
+li.categoria {
+    float: left;
 }
 
 li.categoria>a {
@@ -88,6 +79,16 @@ li.categoria:hover>a {
 li.categoria:hover ul.submenu {
     height: 100px;
 }
+
+ul.submenu {
+    -moz-transition: height 0.5s ease-out;
+    -webkit-transition: height 0.5s ease-out;
+    transition: height 0.5s ease-out;
+    position: absolute;
+    height: 0px;
+    overflow: hidden;
+}
+
 
 footer {
     color: #eee;
