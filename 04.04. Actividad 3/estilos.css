@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+  
+h1,h4,p {
+    margin: 0px;
+}
+  
+body {
+    background-color: white;
+}
+  
+.container {
+    color: #666666;
+    font-family: "Montserrat";
+    margin: 20px auto;
+    width: 90%;
+    
+}
+
+header{
+
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.content_wrapper{
+
+    border-top: 2px black;
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+
+    margin-right: 30px;
+}
+
+nav div{
+
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+main{
+
+    
+}
+
+article{
+
+    flex-direction: row;
+}
