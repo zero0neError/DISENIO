@@ -1,25 +1,24 @@
-#verde{
+.verde{
 
     background-color: green;
     height: 60px;
     margin-bottom: 10px;
 }
 
-#rojo{
+.rojo{
 
     background-color: red;
-    height: 580px;
     margin-bottom: 10px;
 }
 
-#verde-mini{
+.verde-mini{
 
     background-color: green;
     height: 30px;
     margin-bottom: 10px;
 }
 
-#rosa{
+.rosa{
 
     background-color: palevioletred;
     height: 60px;
