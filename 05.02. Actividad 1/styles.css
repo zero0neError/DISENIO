@@ -1,40 +1,40 @@
 .verde{
 
     background-color: green;
-    height: 60px;
-    margin-bottom: 10px;
+    height: 160px;
+    
 }
 
 .rojo{
 
     background-color: red;
-    margin-bottom: 10px;
+    border: 3px solid white;
 }
 
 .verde-mini{
 
     background-color: green;
-    height: 30px;
-    margin-bottom: 10px;
+    height: 80px;
+    
 }
 
 .rosa{
 
     background-color: palevioletred;
-    height: 60px;
-    margin-bottom: 10px;
+    height: 80px;
+    border: 3px solid white;
 }
 
 .carne{
 
     background-color: lightsalmon;
     height: 200px;
-    margin-bottom: 10px;
+    border: 3px solid white;
 }
 
 .azul{
 
     background-color: blue;
     height: 140px;
-    margin-bottom: 10px;
+    border: 3px solid white;
 }
