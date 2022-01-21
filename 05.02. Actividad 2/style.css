@@ -1,0 +1,48 @@
+.verde{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+    background-color: rgb(19, 211, 19);
+}
+
+.azul{
+
+    background-color: rgb(43, 148, 218);
+    height: 250px;
+    border: 1px solid white;
+    font-weight: 900;
+    font-size: 150px;
+    text-align: center;
+}
+
+.gris{
+
+    background-color: grey;
+    border: 1px solid white;
+    height: 250px;
+    font-weight: 900;
+    font-size: 150px;
+    text-align: center;
+}
+
+.celeste{
+
+    text-align: center;
+    font-weight: bold;
+    height: 80px;
+    font-size: 40px;
+    background-color: cyan;
+    border: 5px solid black;
+}
+
+.naranja{
+
+    background-color: orange;
+    height: 250px;
+    border: 1px solid white;
+    font-weight: 900;
+    font-size: 150px;
+    text-align: center;
+}
