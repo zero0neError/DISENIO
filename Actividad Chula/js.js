@@ -15,37 +15,44 @@ function accionPlay()
 }
 function accionReiniciar()
 {
-  //Usar propiedad .currentTime
-  //Reproducir el vídeo
-  //Cambiar el valor del botón a ||
+  medio.currentTime=0;
+  play.value='||';
+  medio.play();
+  
 }
 function accionRetrasar()
 {
   //Usar propiedad .curentTime
   //Contemplar que no existen valores negativos
+  if(medio.currentTime>0){
+
+    medio.currentTime-=5;
+  }
 }
 function accionAdelantar()
 {
-  //Contemplar que no existen valores mayores a medio.duration  
+  medio.currentTime+=5;
 }
 function accionSilenciar()
 {
 
     (medio.muted)?medio.muted=!medio.muted:medio.muted=!medio.muted;
+    (silenciar.value=="silenciar")?silenciar.value="escuchar":silenciar.value="silenciar";
     
   //Utilizar medio.muted = true; o medio.muted = false;
 }
 function accionMasVolumen()
 {
   //Contemplar que el valor máximo de volumen es 1
-  if(medio.volume<1){
-
-    medio.volume=medio.volume+0.1;
-
-    if(medio.volume>1.1){
-
-        medio.volume=0;
-    }
+  
+  if(medio.volume>=0 && medio.volume<1){
+    
+      aux=medio.volume;
+      medio.volume=medio.volume+0.1;
+      
+      if(medio.volume>1){
+        medio.volume=aux;
+      }
   }
 }
 function accionMenosVolumen()
